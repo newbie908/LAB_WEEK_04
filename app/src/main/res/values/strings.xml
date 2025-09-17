@@ -29,4 +29,6 @@
     <string name="starbucks_title">STARBUCKS</string>
     <string name="janjijiwa_title">JANJI JIWA</string>
     <string name="kopikenangan_title">KOPI KENANGAN</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
