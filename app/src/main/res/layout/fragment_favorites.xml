@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FavoritesFragment"
-    android:padding="20dp">
+    android:padding="20dp"
+    tools:context=".FavoritesFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,8 +15,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:text="@string/coffee_favorites"/>
+            android:text="@string/coffee_favorites"
+            android:textSize="30sp" />
 
         <View
             android:layout_width="match_parent"
@@ -28,10 +28,9 @@
             android:id="@+id/latte"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
             android:padding="10dp"
             android:text="@string/latte_title"
-            app:drawableStartCompat="@drawable/favorite_menu"
-            android:drawablePadding="10dp"/>
+            app:drawableStartCompat="@drawable/favorite" />
     </LinearLayout>
-
 </ScrollView>
